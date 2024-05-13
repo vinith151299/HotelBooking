@@ -7,6 +7,7 @@ import Booknow from '../../Components/Home/booknow'
 import Coustomer from '../../Components/Home/coustomer'
 import Footer from '../../Components/Home/footer'
 import Residence from '../../Components/Home/residence'
+import Stickyheader from '../../Components/Home/stickyheader'
 const Header = () => {
   return (
     <div>
@@ -18,6 +19,7 @@ const Header = () => {
       <Booknow />
       <Coustomer />
       <Footer />
+      <Stickyheader/>
     </div>
   )
 }

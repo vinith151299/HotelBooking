@@ -215,6 +215,7 @@ body {
 
 .home-menu-content p {
   font-size: 20px;
+  cursor: pointer;
 }
 
 .home-title {
@@ -2341,6 +2342,14 @@ body {
 
 /* start */
 
+
+.nav-menusection{
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  z-index: 9999;
+}
 
 
 .navmenu-grid {

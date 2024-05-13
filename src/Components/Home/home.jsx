@@ -9,6 +9,7 @@ const Home = () => {
 
   const togglePanel = () => {
     setPanelOpen((prev) => !prev);
+    document.body.style.overflow = panelOpen ? 'auto' : 'hidden';
   };
 
   const smoothScroll = (id) => {
