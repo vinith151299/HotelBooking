@@ -13,7 +13,7 @@ const Booknow = () => {
                             <img src={Book1} alt="" className="play-button" /></button>
                     </div>
                     <div className="booking-content">
-                        <p className="booking-child-content">Lorem ipsum dolor sit amet consectetur. Porttitor tellus tempus nisl neque felis.</p>
+                        <p className="booking-child-content">Lorem ipsums dolor sit amet consectetur. Porttitor tellus tempus nisl neque felis.</p>
                         <div>
                             <button className="booking-book">Book Now</button>
                         </div>
