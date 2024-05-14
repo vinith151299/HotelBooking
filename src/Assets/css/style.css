@@ -1984,10 +1984,7 @@ body {
 
 @media only screen and (max-width: 600px) {
 
-  .coustomer {
-    background-color: white;
-    height: 110vh;
-  }
+
 
   .icon-coust {
     width: 60px;
@@ -2343,12 +2340,16 @@ body {
 /* start */
 
 
-.nav-menusection{
+.nav-menusection {
   position: absolute;
   width: 100%;
   overflow: hidden;
-  position: fixed;
   z-index: 9999;
+}
+
+.nav-menusection {
+  overflow-y: auto;
+  height: 100%;
 }
 
 
@@ -2400,8 +2401,6 @@ body {
   width: 100%;
   position: relative;
   transform: translateX(0%);
-
-
 
 }
 
@@ -2692,9 +2691,9 @@ body {
     color: white;
     align-items: center;
     justify-content: space-evenly;
-    padding: 0px 100px;
+    padding: 0px 0px;
     text-align: center;
-    width: 37%;
+    width: 100%;
   }
 
 
@@ -2861,7 +2860,6 @@ body {
   }
 
 }
-
 
 .move-left {
   left: 0;
