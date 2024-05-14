@@ -521,6 +521,18 @@ body {
 
 }
 
+.react-datepicker__day--keyboard-selected,
+.react-datepicker__month-text--keyboard-selected,
+.react-datepicker__quarter-text--keyboard-selected,
+.react-datepicker__year-text--keyboard-selected {
+  border-radius: 0.3rem;
+  background-color: #fecf79;
+  color: rgb(0, 0, 0);
+  border-radius: 100px;
+  width: 30px;
+  height: 30px;
+}
+
 
 @media only screen and (max-width: 1024px) {
 
